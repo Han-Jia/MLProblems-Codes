@@ -13,10 +13,21 @@
 
 《习题参考》默认读者已具备了机器学习的数学基础（如优化知识、概率论等），掌握了机器学习的基本概念，并具有一定的编程基础。
 
-## 代码使用说明
+### 代码使用说明
 《习题参考》实践环境基于 Python 3。代码按照章节分组，具体内容请查看代码注释，以及书中对应的说明。
 
 ### 勘误与相关资源
 由于笔者能力有限，书中难免有错谬之处，望读者海涵指正，请发邮件至yehj@lamda.nju.edu.cn, 将不胜感激.
 
 使用本书授课的教师可参考[这一页面](https://www.lamda.nju.edu.cn/yehj/mlbook/chinese/openaccess.html)申请本书对应的PPT（不提供后续支持）。
+
+### 勘误列表
+符号加粗网页中无法显示，请根据上下文判断
+1. p12, 左下角旁注，
+   $f(x) = 3$ --> $f(x) = 0$;
+3. p129, 式 (5.67)改为
+   $f(\boldsymbol{x}+\boldsymbol{v})=f(\boldsymbol{x})+\nabla f(\boldsymbol{x})^\top\boldsymbol{v} + \frac{1}{2}v^\top\nabla^2 f(\boldsymbol{x})\boldsymbol{v} + \xi$;
+3. p137, 式 (6.13)上一行应改为“将式 (6.10)两边同乘
+   $\alpha_i y_i$
+   再求和，得”;
+4. p273, 式(10.47), (10.48) 中逗号应改为分号，向量为列向量;
